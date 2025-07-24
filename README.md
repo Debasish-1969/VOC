@@ -19,8 +19,8 @@ This project features animated SVG characters, floating decorative boxes, modern
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/voc-internship-landing.git
-   cd voc-internship-landing
+   git clone (https://github.com/Debasish-1969/VOC)
+   cd VOC
    ```
 
 2. **Open the project:**
