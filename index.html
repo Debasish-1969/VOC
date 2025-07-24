@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Internships</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Quicksand:wght@500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <!-- Animated SVG Character -->
+  <div class="character">
+    <svg width="90" height="90" viewBox="0 0 90 90" fill="none">
+      <circle cx="45" cy="45" r="40" fill="#fffbe7" stroke="#ffb347" stroke-width="4"/>
+      <ellipse cx="45" cy="55" rx="18" ry="10" fill="#ffe0b2"/>
+      <circle cx="35" cy="40" r="5" fill="#ffb347"/>
+      <circle cx="55" cy="40" r="5" fill="#ffb347"/>
+      <ellipse cx="45" cy="60" rx="6" ry="3" fill="#ffb347"/>
+      <ellipse class="blink" cx="35" cy="40" rx="2" ry="2" fill="#fff"/>
+      <ellipse class="blink" cx="55" cy="40" rx="2" ry="2" fill="#fff"/>
+    </svg>
+  </div>
+
+  <!-- Floating Decorative Boxes -->
+  <div class="floating-box box1"></div>
+  <div class="floating-box box2"></div>
+  <div class="floating-box box3"></div>
+
+  <div class="container">
+    <h1 class="title">Internships</h1>
+    <div class="grid">
+      <div class="card">
+        <h2>Web Development Internship Program</h2>
+        <ul>
+          <li>Duration: 1 month/2 months</li>
+          <li>Location: Virtual</li>
+          <li>Stipend: -</li>
+          <li>Start date: 05/11/2023</li>
+        </ul>
+        <button onclick="viewDetails('Web Development Internship Program')">View Details</button>
+      </div>
+
+      <div class="card">
+        <h2>App Development Internship Program</h2>
+        <ul>
+          <li>Duration: 1 month/2 months</li>
+          <li>Location: Virtual</li>
+          <li>Stipend: -</li>
+          <li>Start date: 05/11/2023</li>
+        </ul>
+        <button onclick="viewDetails('App Development Internship Program')">View Details</button>
+      </div>
+
+      <div class="card">
+        <h2>Python Programming Internship Program</h2>
+        <ul>
+          <li>Duration: 1 month/2 months</li>
+          <li>Location: Virtual</li>
+          <li>Stipend: -</li>
+          <li>Start date: 05/11/2023</li>
+        </ul>
+        <button onclick="viewDetails('Python Programming Internship Program')">View Details</button>
+      </div>
+
+      <div class="card">
+        <h2>Java Programming Internship Program</h2>
+        <ul>
+          <li>Duration: 1 month/2 months</li>
+          <li>Location: Virtual</li>
+          <li>Stipend: -</li>
+          <li>Start date: 05/11/2023</li>
+        </ul>
+        <button onclick="viewDetails('Java Programming Internship Program')">View Details</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p>Thank you for your interest! Please visit our <a href="https://vaultofcodes.in/" target="_blank">official website</a> for more details and to apply.</p>
+    </div>
+  </div>
+</body>
+</html>
