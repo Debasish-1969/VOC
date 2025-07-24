@@ -19,7 +19,7 @@ This project features animated SVG characters, floating decorative boxes, modern
 
 1. **Clone the repository:**
    ```bash
-   git clone (https://github.com/Debasish-1969/VOC)
+   git clone [https://github.com/Debasish-1969/VOC]
    cd VOC
    ```
 
